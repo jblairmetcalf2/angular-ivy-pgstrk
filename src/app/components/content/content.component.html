@@ -1,7 +1,8 @@
 <my-modal #modalRef></my-modal>
 
 <div class="grid">
-  <my-card *ngFor="let item of data"
+  <my-card
+    *ngFor="let item of data"
     [header]="item.header"
     [body]="item.body"
     [id]="item.id"
